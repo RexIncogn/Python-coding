@@ -1,0 +1,16 @@
+sname=input('enter student name:')
+rno= int(input('enter student rollno:'))
+group=input('enter group:')
+s1 = int(input('enter subject 1 marks:'))
+s2 = int(input('enter subject 2 marks:'))
+s3 = int(input('enter subject 3 marks:'))
+if s1>=35 and s2>=35 and s3>=35:
+    print('name:',sname)
+    print('rollno:',rno)
+    print('group:',group)
+    print('\tPASS\t')
+else:
+    print('name:',sname)
+    print('rollno:',rno)
+    print('group:',group)
+    print('\tFAIL\t')
